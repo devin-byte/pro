@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #000013 !important;
+}
+
+.carousel-item img{
+    max-height: 50vh;
+}
+
+@media(max-width:800px){
+    .carousel-item img{
+        max-height: 35vh;
+    }
+}
+
+
+@media(max-width:450px){
+    .carousel-item img{
+        max-height: 20vh;
+    }
+}
